@@ -26,6 +26,10 @@ main section {
     margin-bottom: 120px;
 }
 
+.text-primary {
+    color: rgb(255, 0, 0);
+}
+
 /* banner styles */
 .banner {
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
@@ -184,4 +188,85 @@ main section {
 .offer-des {
     font-size: 20px;
     margin-bottom: 45px;
+}
+
+/* sale styles */
+.sale {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.sale-sub-header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.sale-header {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+
+.sale-des {
+    margin-bottom: 60px;
+}
+
+/* images position styles */
+.image-content {
+    margin-top: 600px;
+}
+
+.red-bg {
+    position: relative;
+    background-color: red;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.image-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.image-2 {
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+}
+
+/* gift styles */
+.gift {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.gift-sub-header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.gift-header {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.gift-des{
+    margin-bottom: 48px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.gift-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
 }
