@@ -260,13 +260,59 @@ main section {
     margin-bottom: 22px;
 }
 
-.gift-des{
+.gift-des {
     margin-bottom: 48px;
     color: rgba(7, 2, 17, 0.6);
 }
 
-.gift-images{
+.gift-images {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+}
+
+
+/* news styles */
+.news {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 210px;
+}
+
+.news-image {
+    margin-bottom: 45px;
+}
+
+.news-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.news-des {
+    margin-bottom: 48px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.news-field {
+    padding: 25px 30px;
+    width: 400px;
+    border: none;
+    border-radius: 50px 0px 0px 50px ;
+}
+
+.sub-container {
+   display: flex;
+}
+
+.btn-subscribe {
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    padding: 25px 30px;
+    background: rgb(255, 0, 0);
+    color: white;
 }
